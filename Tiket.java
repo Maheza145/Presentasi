@@ -13,7 +13,6 @@ public class Tiket {
     public String getEvent() { return event; }
     public double getHarga() { return harga; }
 
-    
     public void setNama(String nama) { this.nama = nama; }
     public void setEvent(String event) { this.event = event; }
 
