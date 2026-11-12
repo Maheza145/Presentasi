@@ -34,7 +34,7 @@ public class Tiket {
 
     // Method untuk menampilkan detail tiket 
     public void tampilkanInfo() {
-        System.out.println("=== TIKET ===");
+        // System.out.println("=== TIKET ===");
         System.out.println("Nama  : " + nama);
         System.out.println("Event : " + event);
         System.out.println("Harga : Rp " + String.format("%,.0f", harga));

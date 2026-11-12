@@ -16,9 +16,10 @@ public class TiketBioskop extends Tiket {
     @Override
     public void tampilkanInfo() {
         System.out.println("=== TIKET BIOSKOP ===");
-        System.out.println("Nama   : " + getNama());   // Mengambil nama lewat getter superclass
-        System.out.println("Film   : " + getEvent());  // Mengambil event lewat getter superclass
+        super.tampilkanInfo();
+        // System.out.println("Nama   : " + getNama());   // Mengambil nama lewat getter superclass
+        // System.out.println("Film   : " + getEvent());  // Mengambil event lewat getter superclass
         System.out.println("Studio : " + studio);      // Menampilkan atribut studio milik subclass
-        System.out.println("Harga  : Rp " + String.format("%,.0f", getHarga())); // Format angka ribuan
+        // System.out.println("Harga  : Rp " + String.format("%,.0f", getHarga())); // Format angka ribuan
     }
 }
