@@ -10,7 +10,6 @@ public class Main {
         TiketBioskop t2 = new TiketBioskop("Siti", "Avengers", 50000, "Studio 3");
         t2.tampilkanInfo();
         System.out.println();
-
         
         System.out.println("jika harga tiket negatif:");
         TiketKonser t3 = new TiketKonser("Andi", "Jazz Festival", 100, "Diana Krall");

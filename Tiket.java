@@ -6,7 +6,7 @@ public class Tiket {
     public Tiket(String nama, String event, double harga) {
         this.nama = nama;
         this.event = event;
-        setHarga(harga); 
+        setHarga(harga);
     }
 
     public String getNama() { return nama; }
@@ -22,14 +22,13 @@ public class Tiket {
         if (harga < 0) {
             
             System.out.println("Harga tidak boleh negatif! Input: " + harga);
-            this.harga = 0; //  nilai akan diatur ke 0
+            this.harga = 0; 
         } else {
             this.harga = harga;
         }
     }
 
     public void tampilkanInfo() {
-        // System.out.println("=== TIKET ===");
         System.out.println("Nama  : " + nama);
         System.out.println("Event : " + event);
         System.out.println("Harga : Rp " + String.format("%,.0f", harga));
